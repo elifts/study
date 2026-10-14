@@ -9,32 +9,46 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <main class="quiz">
-        <div class="questionbox">
-            <h2 id="question">Loading question...</h2>
-        </div>
-
-        <div class="input">
-            <div class="multiplechoice" id="multiplechoice"></div>
-
-            <div class="shortanswers" id="shortanswers">
-                <input
-                    type="text"
-                    id="shortanswer"
-                    placeholder="Type your answer..."
-                    autocomplete="off"
-                >
-                <button id="submitanswer">Submit Answer</button>
-                
+    <main class="layout">
+        <section class="quiz">
+            <div class="questionbox">
+                <h2 id="question">Loading question...</h2>
             </div>
-            <button id="Skipanswer" class="Skipanswer">Skip Answer</button>
-        </div>
 
-        <p id="feedback" aria-live="polite"></p>
+            <div class="input">
+                <div class="multiplechoice" id="multiplechoice"></div>
 
-        <button id="nextquestion" hidden>Next Question</button>
+                <div class="shortanswers" id="shortanswers" hidden>
+                    <input
+                        type="text"
+                        id="shortanswer"
+                        placeholder="Type your answer..."
+                        autocomplete="off"
+                    >
+                    <button id="submitanswer">Submit Answer</button>
+                </div>
 
-        <p id="progress"></p>
+                <button id="Skipanswer" class="Skipanswer">Skip Answer</button>
+            </div>
+
+            <p id="feedback" aria-live="polite"></p>
+
+            <button id="nextquestion" hidden>Next Question</button>
+
+            <p id="progress"></p>
+        </section>
+
+        <section class="graphbox">
+            <h2>Time per Question</h2>
+            <canvas id="timegraph" aria-label="Graph of time taken for each question"></canvas>
+            <div class="graphlegend">
+                <span><i class="dot correct-dot"></i> Correct</span>
+                <span><i class="dot incorrect-dot"></i> Incorrect</span>
+                <span><i class="dot skipped-dot"></i> Skipped</span>
+            </div>
+        </section>
     </main>
+
+    <div id="confetti" aria-hidden="true"></div>
 </body>
 </html>
