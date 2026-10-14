@@ -86,11 +86,15 @@ function showQuestion() {
     feedback.textContent = "";
     nextQuestionButton.hidden = true;
 
+    
     if (currentQuestion.type === "multiple") {
         multipleChoice.hidden = false;
         shortAnswers.hidden = true;
 
-        currentQuestion.answers.forEach((answer) => {
+        // Shuffle the answers every time the question is shown.
+        const shuffledAnswers = shuffle(currentQuestion.answers);
+
+        shuffledAnswers.forEach((answer) => {
             const button = document.createElement("button");
 
             button.textContent = answer;
@@ -102,6 +106,7 @@ function showQuestion() {
 
             multipleChoice.appendChild(button);
         });
+
     } else if (currentQuestion.type === "short") {
         multipleChoice.hidden = true;
         shortAnswers.hidden = false;
