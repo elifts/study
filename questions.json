@@ -1,0 +1,2179 @@
+[
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "multiple",
+    "question": "Expand (x + 3)(x + 5).",
+    "correct": "x² + 8x + 15",
+    "answers": [
+      "x² + 8x + 15",
+      "x² + 15x + 8",
+      "x² + 2x + 15",
+      "x² + 8"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "multiple",
+    "question": "Factorise x² + 7x + 12.",
+    "correct": "(x + 3)(x + 4)",
+    "answers": [
+      "(x + 3)(x + 4)",
+      "(x + 2)(x + 6)",
+      "(x - 3)(x - 4)",
+      "(x + 1)(x + 12)"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "short",
+    "question": "Expand and simplify (2x - 3)(x + 4).",
+    "correct": "2x² + 5x - 12"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "short",
+    "question": "Factorise fully 3x² + 12x.",
+    "correct": "3x(x + 4)"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "multiple",
+    "question": "Which expression is equivalent to (x - 4)²?",
+    "correct": "x² - 8x + 16",
+    "answers": [
+      "x² - 8x + 16",
+      "x² - 16",
+      "x² + 8x + 16",
+      "x² - 4x + 16"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "short",
+    "question": "Factorise x² - 25.",
+    "correct": "(x - 5)(x + 5)"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "multiple",
+    "question": "Solve x² - 9 = 0.",
+    "correct": "x = ±3",
+    "answers": [
+      "x = 3 only",
+      "x = -3 only",
+      "x = ±3",
+      "x = ±9"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "short",
+    "question": "Expand (x + 2)(x - 6).",
+    "correct": "x² - 4x - 12"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "multiple",
+    "question": "What is the coefficient of x in 4x² - 9x + 2?",
+    "correct": "-9",
+    "answers": [
+      "4",
+      "-9",
+      "2",
+      "9"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 5: Quadratic expressions",
+    "type": "short",
+    "question": "Factorise x² - 2x - 15.",
+    "correct": "(x - 5)(x + 3)"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "multiple",
+    "question": "In a right-angled triangle, which ratio is opposite ÷ hypotenuse?",
+    "correct": "sin θ",
+    "answers": [
+      "sin θ",
+      "cos θ",
+      "tan θ",
+      "sec θ"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "short",
+    "question": "A right triangle has opposite side 6 cm and hypotenuse 10 cm. Find sin θ.",
+    "correct": "0.6"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "multiple",
+    "question": "A ladder reaches 4 m up a wall and its foot is 3 m from the wall. How long is the ladder?",
+    "correct": "5 m",
+    "answers": [
+      "5 m",
+      "6 m",
+      "7 m",
+      "12 m"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "short",
+    "question": "A right triangle has opposite = 8 and adjacent = 6. Find tan θ.",
+    "correct": "1.3333333333"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "multiple",
+    "question": "Which formula gives the hypotenuse when the other sides are a and b?",
+    "correct": "c² = a² + b²",
+    "answers": [
+      "c² = a² + b²",
+      "c = a + b",
+      "c² = a² - b²",
+      "c = ab"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "short",
+    "question": "A ramp is 5 m long and rises 1.5 m. Find the angle of elevation to the nearest degree.",
+    "correct": "17"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "multiple",
+    "question": "If cos θ = 0.5 and θ is acute, θ equals:",
+    "correct": "60°",
+    "answers": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "short",
+    "question": "A right triangle has adjacent side 12 cm and angle 35°. Calculate the opposite side to 1 decimal place.",
+    "correct": "8.4"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "multiple",
+    "question": "Which side is opposite the right angle?",
+    "correct": "Hypotenuse",
+    "answers": [
+      "Hypotenuse",
+      "Adjacent",
+      "Opposite",
+      "Base only"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 6: Trigonometry (6A–6H)",
+    "type": "short",
+    "question": "A tree casts a 7 m shadow. The angle of elevation to its top is 40°. Find the tree's height to 1 decimal place.",
+    "correct": "5.9"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "multiple",
+    "question": "What is the turning point of y = (x - 2)² + 3?",
+    "correct": "(2, 3)",
+    "answers": [
+      "(2, 3)",
+      "(-2, 3)",
+      "(2, -3)",
+      "(-2, -3)"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "short",
+    "question": "Find the gradient between (2, 5) and (6, 13).",
+    "correct": "2"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "multiple",
+    "question": "The graph y = x² opens:",
+    "correct": "Upwards",
+    "answers": [
+      "Upwards",
+      "Downwards",
+      "Left",
+      "Right"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "short",
+    "question": "If y varies directly with x and y = 18 when x = 6, find y when x = 10.",
+    "correct": "30"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "multiple",
+    "question": "Which equation represents inverse variation?",
+    "correct": "y = k/x",
+    "answers": [
+      "y = kx",
+      "y = k/x",
+      "y = x + k",
+      "y = x² + k"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "short",
+    "question": "Find the average rate of change of f(x)=x² from x=1 to x=4.",
+    "correct": "5"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "multiple",
+    "question": "The axis of symmetry of y = (x + 4)² - 1 is:",
+    "correct": "x = -4",
+    "answers": [
+      "x = -4",
+      "x = 4",
+      "y = -1",
+      "y = 1"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "short",
+    "question": "Find the x-intercepts of y = x² - 9.",
+    "correct": "x = -3 and x = 3"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "multiple",
+    "question": "If y is directly proportional to x², and y = 20 when x = 2, what is y when x = 3?",
+    "correct": "45",
+    "answers": [
+      "30",
+      "40",
+      "45",
+      "60"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 7: Parabolas, rates of change and variation (7A–7G, 7J)",
+    "type": "short",
+    "question": "A quantity varies inversely with x. If y = 12 when x = 4, find y when x = 8.",
+    "correct": "6"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "multiple",
+    "question": "A fair six-sided die is rolled. What is the probability of rolling an even number?",
+    "correct": "1/2",
+    "answers": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "short",
+    "question": "A bag contains 3 red, 5 blue and 2 green counters. Find P(blue).",
+    "correct": "1/2"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "multiple",
+    "question": "Events A and B are mutually exclusive. If P(A)=0.3 and P(B)=0.4, find P(A or B).",
+    "correct": "0.7",
+    "answers": [
+      "0.12",
+      "0.7",
+      "0.1",
+      "0.58"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "short",
+    "question": "A coin is tossed twice. What is the probability of getting two heads? Give a fraction.",
+    "correct": "1/4"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "multiple",
+    "question": "If P(A)=0.65, what is P(not A)?",
+    "correct": "0.35",
+    "answers": [
+      "0.65",
+      "0.45",
+      "0.35",
+      "1.65"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "short",
+    "question": "A card is selected from a standard 52-card deck. Find the probability it is a heart.",
+    "correct": "1/4"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "multiple",
+    "question": "Two independent events have probabilities 0.5 and 0.2. What is the probability both occur?",
+    "correct": "0.1",
+    "answers": [
+      "0.1",
+      "0.7",
+      "0.3",
+      "0.25"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "short",
+    "question": "A spinner has 8 equal sections, 3 yellow. In 160 spins, how many yellow results would you expect?",
+    "correct": "60"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "multiple",
+    "question": "Which statement describes independent events?",
+    "correct": "One event does not affect the probability of the other",
+    "answers": [
+      "One event does not affect the probability of the other",
+      "They cannot happen together",
+      "Their probabilities must be equal",
+      "One must happen after the other"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 8: Probability",
+    "type": "short",
+    "question": "If P(A)=0.4, P(B)=0.5 and events are independent, find P(A and B).",
+    "correct": "0.2"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "multiple",
+    "question": "Find the mean of 4, 6, 8, 10.",
+    "correct": "7",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "28"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "multiple",
+    "question": "Find the median of 3, 9, 2, 7, 5.",
+    "correct": "5",
+    "answers": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "short",
+    "question": "Find the range of 12, 18, 7, 21, 15.",
+    "correct": "14"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "multiple",
+    "question": "Which measure is most affected by an extreme outlier?",
+    "correct": "Mean",
+    "answers": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Interquartile range"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "short",
+    "question": "The lower quartile is 12 and the upper quartile is 26. Find the interquartile range.",
+    "correct": "14"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "multiple",
+    "question": "A box plot shows the median as the:",
+    "correct": "Line inside the box",
+    "answers": [
+      "Line inside the box",
+      "End of the left whisker",
+      "End of the right whisker",
+      "Width of the box"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "short",
+    "question": "Find the mean of 5, 7, 7, 9, 12.",
+    "correct": "8"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "multiple",
+    "question": "Which graph is most suitable for comparing two categorical variables?",
+    "correct": "Two-way table",
+    "answers": [
+      "Two-way table",
+      "Line graph only",
+      "Box plot",
+      "Scatter plot"
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "short",
+    "question": "A data set has Q1 = 8, median = 14 and Q3 = 20. Find the IQR.",
+    "correct": "12"
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Chapter 9: Statistics (9A–9G)",
+    "type": "multiple",
+    "question": "A scatter plot with points rising from left to right usually indicates:",
+    "correct": "Positive association",
+    "answers": [
+      "Positive association",
+      "Negative association",
+      "No association",
+      "A causal relationship automatically"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "multiple",
+    "question": "Which event is generally recognised as the immediate trigger for Britain and France declaring war on Germany in 1939?",
+    "correct": "Germany's invasion of Poland",
+    "answers": [
+      "Germany's invasion of Poland",
+      "The bombing of Darwin",
+      "The fall of Singapore",
+      "The attack on Pearl Harbor"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "short",
+    "question": "In what year did Japan's forces capture Singapore from the British?",
+    "correct": "1942"
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "multiple",
+    "question": "The Kokoda Campaign took place in which present-day country?",
+    "correct": "Papua New Guinea",
+    "answers": [
+      "Papua New Guinea",
+      "Malaysia",
+      "Indonesia",
+      "Vietnam"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "short",
+    "question": "Name the Australian city bombed by Japanese aircraft on 19 February 1942.",
+    "correct": "Darwin"
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "multiple",
+    "question": "What was a major purpose of wartime rationing on the Australian home front?",
+    "correct": "To manage shortages and distribute essential goods fairly",
+    "answers": [
+      "To manage shortages and distribute essential goods fairly",
+      "To encourage luxury imports",
+      "To stop all domestic production",
+      "To replace all money with coupons"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "multiple",
+    "question": "Which statement best describes wartime censorship?",
+    "correct": "Restricting information published or broadcast for security or morale",
+    "answers": [
+      "Restricting information published or broadcast for security or morale",
+      "Allowing every military detail to be published",
+      "Ending government communication",
+      "A system for distributing food"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "short",
+    "question": "What does POW stand for?",
+    "correct": "Prisoner of war"
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "multiple",
+    "question": "Why were the atomic bombs dropped on Hiroshima and Nagasaki historically significant?",
+    "correct": "They contributed to Japan's surrender and began the nuclear age",
+    "answers": [
+      "They contributed to Japan's surrender and began the nuclear age",
+      "They began World War I",
+      "They led to the fall of Singapore in 1942",
+      "They created the United Nations before the war"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "multiple",
+    "question": "Which was one important change for many Australian women during World War II?",
+    "correct": "They took on more roles in paid work and wartime services",
+    "answers": [
+      "They took on more roles in paid work and wartime services",
+      "They were prohibited from all paid work",
+      "They replaced all soldiers overseas",
+      "They controlled all rationing policy"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Australians at War: World War II",
+    "type": "short",
+    "question": "What was the name of the Japanese attack on Sydney Harbour involving small submarines in May 1942?",
+    "correct": "The Sydney midget submarine attack"
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "multiple",
+    "question": "What was antisemitism?",
+    "correct": "Prejudice, hostility or discrimination against Jewish people",
+    "answers": [
+      "Prejudice, hostility or discrimination against Jewish people",
+      "Support for Jewish religious freedom",
+      "A military alliance",
+      "A Nazi economic recovery program"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "short",
+    "question": "What was the Nazi term for the systematic genocide of Europe's Jewish people?",
+    "correct": "The Final Solution"
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "multiple",
+    "question": "What was a ghetto during the Holocaust?",
+    "correct": "An area where Jewish people were forcibly confined",
+    "answers": [
+      "An area where Jewish people were forcibly confined",
+      "A neutral country",
+      "A German parliament",
+      "A type of resistance radio"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "multiple",
+    "question": "Which statement best describes the role of concentration and extermination camps under Nazi rule?",
+    "correct": "They were sites of imprisonment, forced labour, persecution and mass murder",
+    "answers": [
+      "They were sites of imprisonment, forced labour, persecution and mass murder",
+      "They were ordinary schools",
+      "They were exclusively refugee shelters",
+      "They were elected local councils"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "short",
+    "question": "Name one way Jewish life in Europe was diverse before the rise of Nazism.",
+    "correct": "Jewish communities differed in language, religious practice, culture or political views"
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "multiple",
+    "question": "Which source would most directly provide a survivor's personal account of persecution?",
+    "correct": "A survivor's recorded oral testimony",
+    "answers": [
+      "A survivor's recorded oral testimony",
+      "A modern textbook summary",
+      "A recent museum timeline",
+      "A historian's overview written decades later"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "multiple",
+    "question": "Why is it important to study pre-war Jewish life as well as Nazi persecution?",
+    "correct": "It recognises Jewish communities as diverse societies, not only as victims",
+    "answers": [
+      "It recognises Jewish communities as diverse societies, not only as victims",
+      "It suggests persecution was inevitable",
+      "It removes the need to study Nazi ideology",
+      "It proves all Jewish communities were identical"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Holocaust",
+    "type": "short",
+    "question": "What is genocide?",
+    "correct": "The intentional destruction, in whole or in part, of a national, ethnic, racial or religious group"
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "multiple",
+    "question": "Which two superpowers were the main rivals during the Cold War?",
+    "correct": "United States and Soviet Union",
+    "answers": [
+      "United States and Soviet Union",
+      "Britain and France",
+      "China and Japan",
+      "Germany and Italy"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "multiple",
+    "question": "The Truman Doctrine aimed to:",
+    "correct": "Contain the spread of communism by supporting countries resisting it",
+    "answers": [
+      "Contain the spread of communism by supporting countries resisting it",
+      "Expand Soviet control into Western Europe",
+      "Create the Warsaw Pact",
+      "End the space race"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "short",
+    "question": "What was the name of the US program that provided economic aid to help rebuild post-war Europe?",
+    "correct": "The Marshall Plan"
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "multiple",
+    "question": "What happened during the Berlin Airlift of 1948–49?",
+    "correct": "Western powers flew supplies into West Berlin during a Soviet blockade",
+    "answers": [
+      "Western powers flew supplies into West Berlin during a Soviet blockade",
+      "The Soviet Union supplied all of West Berlin by road",
+      "Germany invaded France",
+      "The Berlin Wall was built"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "multiple",
+    "question": "NATO was established primarily as:",
+    "correct": "A collective defence alliance among its members",
+    "answers": [
+      "A collective defence alliance among its members",
+      "A Soviet-led economic organisation",
+      "A space research agency",
+      "A United Nations court"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "short",
+    "question": "Which 1962 crisis brought the United States and Soviet Union close to nuclear war?",
+    "correct": "The Cuban Missile Crisis"
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "multiple",
+    "question": "A proxy war is a conflict in which:",
+    "correct": "Major powers support opposing sides rather than fighting each other directly on a full scale",
+    "answers": [
+      "Major powers support opposing sides rather than fighting each other directly on a full scale",
+      "All countries remain neutral",
+      "Only naval forces are used",
+      "The United Nations runs both armies"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "multiple",
+    "question": "Which event is most closely associated with the space race?",
+    "correct": "The first human spaceflight",
+    "answers": [
+      "The first human spaceflight",
+      "The invention of the printing press",
+      "The fall of Singapore",
+      "The Berlin Airlift"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "short",
+    "question": "Name the Soviet-led military alliance formed in 1955 in response to Western alliances.",
+    "correct": "Warsaw Pact"
+  },
+  {
+    "subject": "History",
+    "topic": "The Cold War",
+    "type": "multiple",
+    "question": "What is one reason historians compare sources about the Cold War?",
+    "correct": "Sources may reflect different perspectives, purposes and political biases",
+    "answers": [
+      "Sources may reflect different perspectives, purposes and political biases",
+      "All sources contain identical facts",
+      "Only one side produced sources",
+      "Comparison makes context unnecessary"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "multiple",
+    "question": "A diary written during an event by someone who witnessed it is usually a:",
+    "correct": "Primary source",
+    "answers": [
+      "Primary source",
+      "Secondary source",
+      "Tertiary source only",
+      "Fictional source by definition"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "multiple",
+    "question": "A historian's textbook written decades after an event is usually a:",
+    "correct": "Secondary source",
+    "answers": [
+      "Secondary source",
+      "Primary source",
+      "Physical artefact",
+      "Contemporaneous diary"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "short",
+    "question": "When analysing a source, what does its provenance or origin include?",
+    "correct": "Who created it, when and where it was created, and its form or source type"
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "multiple",
+    "question": "A government poster urging citizens to save resources during wartime was most likely intended to:",
+    "correct": "Persuade the public to change behaviour in support of the war effort",
+    "answers": [
+      "Persuade the public to change behaviour in support of the war effort",
+      "Provide a neutral private diary entry",
+      "Record a court judgement",
+      "Explain an event to historians only"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "multiple",
+    "question": "A source is reliable for a specific inquiry when:",
+    "correct": "Its evidence is credible and appropriate to the question, considering context and limitations",
+    "answers": [
+      "Its evidence is credible and appropriate to the question, considering context and limitations",
+      "It agrees with your opinion",
+      "It is always a photograph",
+      "It was produced by a famous person"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "short",
+    "question": "What is historical context?",
+    "correct": "The circumstances and conditions surrounding an event or source, including time, place and wider events"
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "multiple",
+    "question": "Two sources give different accounts of an event. What is the best first response?",
+    "correct": "Compare their origin, purpose, perspective and evidence",
+    "answers": [
+      "Compare their origin, purpose, perspective and evidence",
+      "Assume both are false",
+      "Choose the longer source automatically",
+      "Ignore the differences"
+    ]
+  },
+  {
+    "subject": "History",
+    "topic": "Historical source skills",
+    "type": "short",
+    "question": "What does a source's perspective refer to?",
+    "correct": "The viewpoint shaped by the creator's experiences, beliefs, position and circumstances"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "multiple",
+    "question": "Which statement best distinguishes rights from responsibilities?",
+    "correct": "Rights are entitlements; responsibilities are duties or obligations",
+    "answers": [
+      "Rights are entitlements; responsibilities are duties or obligations",
+      "Rights and responsibilities mean exactly the same thing",
+      "Responsibilities can never be legal",
+      "Rights only apply to businesses"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "multiple",
+    "question": "Criminal law mainly concerns:",
+    "correct": "Offences against the state or society and their prosecution",
+    "answers": [
+      "Offences against the state or society and their prosecution",
+      "Resolving every private disagreement",
+      "Only buying goods online",
+      "Setting interest rates"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "multiple",
+    "question": "A dispute between a customer and a builder over defective work is most likely a:",
+    "correct": "Civil law matter",
+    "answers": [
+      "Civil law matter",
+      "Criminal trial automatically",
+      "Constitutional convention",
+      "Monetary policy decision"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "short",
+    "question": "What is the main purpose of consumer law?",
+    "correct": "To protect consumers and establish fair rules for the supply of goods and services"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "multiple",
+    "question": "What does a court hierarchy help establish?",
+    "correct": "The levels of courts and the types of cases or appeals they hear",
+    "answers": [
+      "The levels of courts and the types of cases or appeals they hear",
+      "The order of political parties in parliament",
+      "The prices of goods",
+      "The ranking of police stations"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "multiple",
+    "question": "Legal aid primarily helps eligible people by:",
+    "correct": "Providing legal assistance when they cannot afford private representation",
+    "answers": [
+      "Providing legal assistance when they cannot afford private representation",
+      "Guaranteeing that they win a case",
+      "Replacing every court with mediation",
+      "Making all legal services free for everyone"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "short",
+    "question": "What is circle sentencing intended to do in some cases?",
+    "correct": "Bring the offender, affected community and relevant justice participants together to support accountability and culturally appropriate sentencing"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "multiple",
+    "question": "The separation of powers divides government functions among the:",
+    "correct": "Legislature, executive and judiciary",
+    "answers": [
+      "Legislature, executive and judiciary",
+      "States, councils and businesses only",
+      "Police, media and banks",
+      "Voters, consumers and producers"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "multiple",
+    "question": "Which is an example of a political system other than democracy?",
+    "correct": "Absolute monarchy",
+    "answers": [
+      "Absolute monarchy",
+      "Representative democracy",
+      "Direct democracy",
+      "Parliamentary democracy"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Law, Society and Political Involvement (Chapter 4)",
+    "type": "short",
+    "question": "What is antisemitism?",
+    "correct": "Prejudice, hostility or discrimination directed against Jewish people"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "The economic problem exists because:",
+    "correct": "Resources are limited while wants are unlimited",
+    "answers": [
+      "Resources are limited while wants are unlimited",
+      "All resources are unlimited",
+      "Wants are always fixed",
+      "Governments can produce everything without cost"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "In the circular flow model, households generally provide businesses with:",
+    "correct": "Factors of production such as labour",
+    "answers": [
+      "Factors of production such as labour",
+      "Only finished goods",
+      "Tax legislation",
+      "Interest rate targets"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "A monopoly is a market structure with:",
+    "correct": "One dominant seller and high barriers to entry",
+    "answers": [
+      "One dominant seller and high barriers to entry",
+      "Many identical sellers",
+      "Exactly two sellers",
+      "No buyers"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "short",
+    "question": "What is opportunity cost?",
+    "correct": "The value of the next best alternative given up when a choice is made"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "If demand increases while supply stays the same, equilibrium price will generally:",
+    "correct": "Rise",
+    "answers": [
+      "Rise",
+      "Fall",
+      "Stay at zero",
+      "Always remain unchanged"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "A movement along the demand curve is caused by a change in:",
+    "correct": "The good's own price",
+    "answers": [
+      "The good's own price",
+      "Consumer income only",
+      "Tastes only",
+      "The number of sellers only"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "Which change would most likely shift demand for a normal good to the right?",
+    "correct": "An increase in consumer income",
+    "answers": [
+      "An increase in consumer income",
+      "A fall in consumer income",
+      "A fall in the price of a complement only decreases demand",
+      "A rise in production costs"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "short",
+    "question": "What is the role of the Reserve Bank of Australia in monetary policy?",
+    "correct": "It sets the cash rate target to influence economic conditions and help achieve price stability, full employment and economic prosperity"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "When the RBA raises interest rates, borrowing generally becomes:",
+    "correct": "More expensive, which can reduce spending and inflationary pressure",
+    "answers": [
+      "More expensive, which can reduce spending and inflationary pressure",
+      "Cheaper, which always increases inflation",
+      "Unchanged for all borrowers",
+      "Impossible for every household"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "multiple",
+    "question": "Which is an example of a business structure?",
+    "correct": "Sole trader",
+    "answers": [
+      "Sole trader",
+      "Inflation rate",
+      "Circular flow",
+      "Price mechanism"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Economic and Business Environment (Chapter 2)",
+    "type": "short",
+    "question": "Name one way government regulation can affect markets.",
+    "correct": "It can set safety standards, protect consumers, regulate competition or correct market failures"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "multiple",
+    "question": "Market segmentation means:",
+    "correct": "Dividing a market into groups with similar needs or characteristics",
+    "answers": [
+      "Dividing a market into groups with similar needs or characteristics",
+      "Selling one product to everyone without research",
+      "Setting every price to zero",
+      "Removing all promotion"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "multiple",
+    "question": "A target market is:",
+    "correct": "The specific group of consumers a business aims to reach",
+    "answers": [
+      "The specific group of consumers a business aims to reach",
+      "Every business in an industry",
+      "A business's suppliers only",
+      "A product's manufacturing cost"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "multiple",
+    "question": "Which is an example of sales promotion?",
+    "correct": "A limited-time discount",
+    "answers": [
+      "A limited-time discount",
+      "A factory safety inspection",
+      "A court hearing",
+      "A cash rate decision"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "short",
+    "question": "What is product differentiation?",
+    "correct": "Making a product or brand appear distinct from competitors through features, quality, design, service or image"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "multiple",
+    "question": "An ethical concern in advertising is:",
+    "correct": "Using misleading claims or reinforcing harmful stereotypes",
+    "answers": [
+      "Using misleading claims or reinforcing harmful stereotypes",
+      "Clearly identifying sponsored content",
+      "Providing accurate product information",
+      "Respecting consumer privacy"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "multiple",
+    "question": "Social media advertising can be useful because it:",
+    "correct": "Can target audiences and measure engagement",
+    "answers": [
+      "Can target audiences and measure engagement",
+      "Never collects user data",
+      "Always reaches every consumer equally",
+      "Has no costs or risks"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "short",
+    "question": "Give one social, ethical or environmental consideration a business should consider when promoting a product.",
+    "correct": "Answers may include avoiding stereotypes, truthful claims, privacy protection, sustainable packaging or responsible sourcing"
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "multiple",
+    "question": "Which promotional method relies on unpaid media coverage or public attention?",
+    "correct": "Public relations/publicity",
+    "answers": [
+      "Public relations/publicity",
+      "Personal selling only",
+      "A price ceiling",
+      "A supply curve"
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "topic": "Promoting and Selling (Chapter 7)",
+    "type": "short",
+    "question": "Why should advertisers consider gender representation?",
+    "correct": "To avoid harmful stereotypes and represent people fairly and inclusively"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "Which set lists Earth's four major spheres?",
+    "correct": "Atmosphere, hydrosphere, lithosphere and biosphere",
+    "answers": [
+      "Atmosphere, hydrosphere, lithosphere and biosphere",
+      "North, south, east and west",
+      "Core, mantle, crust and orbit",
+      "Weather, climate, maps and graphs"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "short",
+    "question": "What is one human activity that can alter the carbon cycle and climate?",
+    "correct": "Burning fossil fuels"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "Longshore drift moves sediment mainly:",
+    "correct": "Along the coast as waves approach at an angle",
+    "answers": [
+      "Along the coast as waves approach at an angle",
+      "Directly down the Earth's axis",
+      "Only vertically through the atmosphere",
+      "From the ocean into the mantle"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "Which is a hard-engineering coastal management strategy?",
+    "correct": "A sea wall",
+    "answers": [
+      "A sea wall",
+      "Beach nourishment",
+      "Dune revegetation",
+      "Managed retreat"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "Which is a soft-engineering coastal management strategy?",
+    "correct": "Beach nourishment",
+    "answers": [
+      "Beach nourishment",
+      "Concrete sea wall",
+      "Groynes only",
+      "Rock armour only"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "short",
+    "question": "Name one way climate change threatens low-lying atoll nations such as Kiribati.",
+    "correct": "Sea-level rise can increase coastal flooding, erosion, saltwater intrusion and risks to freshwater supplies"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "What do the '4 S's' of environmental worldviews commonly help assess?",
+    "correct": "The functions and values of environments",
+    "answers": [
+      "The functions and values of environments",
+      "The four compass points only",
+      "The four layers of the atmosphere",
+      "Four types of map scale"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "On a topographic map, closely spaced contour lines indicate:",
+    "correct": "A steep slope",
+    "answers": [
+      "A steep slope",
+      "A flat plain",
+      "A river mouth in every case",
+      "A low population automatically"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "short",
+    "question": "A map scale is 1:50,000. What ground distance does 2 cm represent? Give the answer in kilometres.",
+    "correct": "1"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "Population density is calculated by:",
+    "correct": "Population ÷ area",
+    "answers": [
+      "Population ÷ area",
+      "Area ÷ population",
+      "Population × area",
+      "Birth rate ÷ rainfall"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "short",
+    "question": "What is the compass bearing for due east, measured clockwise from north?",
+    "correct": "090°"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "A population pyramid with a very wide base often indicates:",
+    "correct": "High birth rates and a relatively young population",
+    "answers": [
+      "High birth rates and a relatively young population",
+      "A population with no children",
+      "A zero birth rate for decades",
+      "Only international migration"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "short",
+    "question": "What does a climate graph usually show?",
+    "correct": "Temperature and precipitation over time, usually across the months of a year"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "Which process is most directly responsible for wave-cut platforms?",
+    "correct": "Wave erosion at the base of a cliff",
+    "answers": [
+      "Wave erosion at the base of a cliff",
+      "Volcanic ash deposition only",
+      "Wind depositing inland dunes",
+      "River meanders in a desert"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments",
+    "type": "multiple",
+    "question": "A six-figure grid reference is used to:",
+    "correct": "Locate a feature more precisely on a map",
+    "answers": [
+      "Locate a feature more precisely on a map",
+      "Calculate the age of rocks directly",
+      "Measure population growth",
+      "Show only wind direction"
+    ]
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "multiple",
+    "question": "In film production, a storyboard is mainly used to:",
+    "correct": "Plan shots and the visual sequence before filming",
+    "answers": [
+      "Plan shots and the visual sequence before filming",
+      "Mix the final audio only",
+      "Measure audience ticket sales",
+      "Replace the camera operator"
+    ]
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "multiple",
+    "question": "Which frame focuses most directly on how artworks communicate cultural beliefs and values?",
+    "correct": "Cultural frame",
+    "answers": [
+      "Cultural frame",
+      "Structural frame only",
+      "Postmodern frame only",
+      "No frame"
+    ]
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "multiple",
+    "question": "The structural frame encourages viewers to examine:",
+    "correct": "How visual and formal elements create meaning",
+    "answers": [
+      "How visual and formal elements create meaning",
+      "Only the artist's income",
+      "Only the date of the artwork",
+      "Whether the artwork is popular"
+    ]
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "short",
+    "question": "What does the subjective frame consider when interpreting an artwork?",
+    "correct": "Personal feelings, experiences, emotions and individual responses"
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "multiple",
+    "question": "A postmodern artwork that appropriates an existing image is often questioning:",
+    "correct": "Originality, authorship, context or established meanings",
+    "answers": [
+      "Originality, authorship, context or established meanings",
+      "The need for any interpretation",
+      "Whether images can carry meaning",
+      "The existence of audiences"
+    ]
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "short",
+    "question": "Name two elements of film language that can shape meaning.",
+    "correct": "Examples include camera angle, framing, shot size, editing, lighting, sound, colour or mise-en-scène"
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "multiple",
+    "question": "The relationship 'artist–artwork–world–audience' encourages you to consider:",
+    "correct": "How context, artistic choices and audiences interact to create meaning",
+    "answers": [
+      "How context, artistic choices and audiences interact to create meaning",
+      "Only the materials used",
+      "Only the artist's biography",
+      "Only whether an artwork is realistic"
+    ]
+  },
+  {
+    "subject": "Visual Arts",
+    "topic": "Artist practice, frames and postmodern art",
+    "type": "short",
+    "question": "When critiquing an interactive artwork, name one feature you could analyse.",
+    "correct": "Examples include audience participation, interface, rules, user choices, feedback, technology or intended message"
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "Which male reproductive organ produces sperm?",
+    "correct": "Testes",
+    "answers": [
+      "Testes",
+      "Prostate gland",
+      "Urethra",
+      "Seminal vesicle"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "Where does fertilisation usually occur in humans?",
+    "correct": "Fallopian tube/oviduct",
+    "answers": [
+      "Fallopian tube/oviduct",
+      "Uterus",
+      "Vagina",
+      "Ovary surface in all cases"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "short",
+    "question": "Define a gamete.",
+    "correct": "A haploid reproductive cell, such as a sperm or ovum"
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "Where is most of a human cell's DNA located?",
+    "correct": "Nucleus",
+    "answers": [
+      "Nucleus",
+      "Cell membrane",
+      "Ribosome",
+      "Golgi apparatus"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "A gene is best described as:",
+    "correct": "A section of DNA associated with a functional product or inherited characteristic",
+    "answers": [
+      "A section of DNA associated with a functional product or inherited characteristic",
+      "A complete organism",
+      "A type of cell membrane",
+      "A whole chromosome pair only"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "short",
+    "question": "How are DNA, genes and chromosomes related?",
+    "correct": "Chromosomes are structures made of DNA and proteins; genes are sections of DNA located on chromosomes"
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "If B is dominant and b is recessive, what phenotype is expected for genotype Bb?",
+    "correct": "Dominant phenotype",
+    "answers": [
+      "Dominant phenotype",
+      "Recessive phenotype",
+      "Both phenotypes must be absent",
+      "Cannot ever be predicted"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "short",
+    "question": "For a cross Bb × Bb, what proportion of offspring is expected to have genotype bb?",
+    "correct": "1/4"
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "Complementary DNA base pairing is:",
+    "correct": "A with T, and C with G",
+    "answers": [
+      "A with T, and C with G",
+      "A with C, and T with G",
+      "A with U, and C with T",
+      "All bases pair with themselves"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "short",
+    "question": "What is a mutation?",
+    "correct": "A change in the DNA sequence or genetic material"
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "Which process produces two genetically similar daughter cells for growth and repair?",
+    "correct": "Mitosis",
+    "answers": [
+      "Mitosis",
+      "Meiosis",
+      "Fertilisation",
+      "Pollination"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "multiple",
+    "question": "Meiosis is important because it:",
+    "correct": "Produces haploid sex cells",
+    "answers": [
+      "Produces haploid sex cells",
+      "Produces identical body cells for growth",
+      "Doubles chromosome number in every generation",
+      "Repairs all mutations"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Biology: Genetics and reproduction",
+    "type": "short",
+    "question": "Give one potential use of stem cells in medicine.",
+    "correct": "They may be used to study disease, test treatments or potentially replace/repair damaged cells and tissues"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "multiple",
+    "question": "Natural selection occurs when:",
+    "correct": "Heritable variations affect survival and reproduction, changing trait frequencies over generations",
+    "answers": [
+      "Heritable variations affect survival and reproduction, changing trait frequencies over generations",
+      "Every individual changes its genes because it needs to",
+      "Organisms choose mutations deliberately",
+      "All individuals survive and reproduce equally"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "short",
+    "question": "Explain how antibiotic resistance can become more common in a bacterial population.",
+    "correct": "Resistant bacteria survive antibiotic treatment and reproduce, passing resistance on so its frequency increases"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "multiple",
+    "question": "Homologous structures provide evidence of:",
+    "correct": "Common ancestry",
+    "answers": [
+      "Common ancestry",
+      "Identical environments in all species",
+      "No evolutionary change",
+      "The same function in every organism"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "multiple",
+    "question": "The Law of Superposition states that in undisturbed sedimentary rock layers:",
+    "correct": "Lower layers are generally older than layers above them",
+    "answers": [
+      "Lower layers are generally older than layers above them",
+      "Upper layers are always older",
+      "All layers formed simultaneously",
+      "Fossils cannot be compared"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "short",
+    "question": "What is the difference between relative dating and radiometric dating?",
+    "correct": "Relative dating compares which rocks or fossils are older or younger; radiometric dating estimates an age using radioactive decay"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "multiple",
+    "question": "Which is an example of environmental variation rather than inherited genetic variation?",
+    "correct": "A suntan caused by sunlight",
+    "answers": [
+      "A suntan caused by sunlight",
+      "Blood group",
+      "A specific inherited allele",
+      "A genetic mutation passed to offspring"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "multiple",
+    "question": "The fossil record is useful because it:",
+    "correct": "Documents past organisms and changes in life through geological time",
+    "answers": [
+      "Documents past organisms and changes in life through geological time",
+      "Shows every organism that ever lived",
+      "Proves evolution stopped",
+      "Provides only exact dates without uncertainty"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Evolution",
+    "type": "short",
+    "question": "What is a vestigial structure?",
+    "correct": "An inherited structure that has reduced or changed function compared with its ancestral form"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "multiple",
+    "question": "The law of conservation of mass states that in a closed system:",
+    "correct": "Total mass remains constant during a chemical reaction",
+    "answers": [
+      "Total mass remains constant during a chemical reaction",
+      "Mass is always created",
+      "Products always weigh less than reactants",
+      "Atoms disappear during combustion"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "short",
+    "question": "Balance the equation: H₂ + O₂ → H₂O. Give the coefficients in order.",
+    "correct": "2, 1, 2"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "multiple",
+    "question": "An exothermic reaction:",
+    "correct": "Transfers energy to the surroundings, often as heat",
+    "answers": [
+      "Transfers energy to the surroundings, often as heat",
+      "Always absorbs heat from the surroundings",
+      "Cannot involve chemical change",
+      "Has no energy transfer"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "multiple",
+    "question": "Which type of reaction has one compound breaking into simpler substances?",
+    "correct": "Decomposition",
+    "answers": [
+      "Decomposition",
+      "Synthesis",
+      "Single displacement",
+      "Neutralisation only"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "short",
+    "question": "What is a precipitate?",
+    "correct": "An insoluble solid formed from a solution during a chemical reaction"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "multiple",
+    "question": "According to collision theory, increasing temperature usually increases reaction rate because particles:",
+    "correct": "Move faster and a greater fraction have enough energy to react",
+    "answers": [
+      "Move faster and a greater fraction have enough energy to react",
+      "Stop colliding",
+      "Become larger",
+      "Lose all kinetic energy"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "multiple",
+    "question": "A catalyst speeds up a reaction by:",
+    "correct": "Providing an alternative pathway with lower activation energy",
+    "answers": [
+      "Providing an alternative pathway with lower activation energy",
+      "Increasing the mass of products",
+      "Being permanently consumed as a reactant",
+      "Stopping particle collisions"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "short",
+    "question": "Name two factors, other than temperature, that can increase reaction rate.",
+    "correct": "Higher concentration, greater surface area or adding a suitable catalyst"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "multiple",
+    "question": "Which gas turns limewater milky?",
+    "correct": "Carbon dioxide",
+    "answers": [
+      "Carbon dioxide",
+      "Hydrogen",
+      "Oxygen",
+      "Nitrogen"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Chemistry",
+    "type": "short",
+    "question": "What is the difference between an open system and a closed system in a mass-conservation experiment?",
+    "correct": "An open system can exchange matter with its surroundings; a closed system prevents matter exchange"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "multiple",
+    "question": "Calculate the speed of a cyclist travelling 150 m in 10 s.",
+    "correct": "15 m/s",
+    "answers": [
+      "15 m/s",
+      "1.5 m/s",
+      "1500 m/s",
+      "10 m/s"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "short",
+    "question": "Convert 72 km/h to m/s.",
+    "correct": "20"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "multiple",
+    "question": "Which formula represents Newton's second law?",
+    "correct": "F = ma",
+    "answers": [
+      "F = ma",
+      "v = d/t",
+      "V = IR",
+      "E = mc²"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "short",
+    "question": "A 4 kg object accelerates at 3 m/s². Find the net force in newtons.",
+    "correct": "12"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "multiple",
+    "question": "Newton's first law says an object maintains its state of motion unless:",
+    "correct": "An unbalanced net force acts on it",
+    "answers": [
+      "An unbalanced net force acts on it",
+      "Its mass disappears",
+      "It is moving in space",
+      "Its speed is high"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "multiple",
+    "question": "Newton's third law states that interaction forces are:",
+    "correct": "Equal in magnitude and opposite in direction, acting on different objects",
+    "answers": [
+      "Equal in magnitude and opposite in direction, acting on different objects",
+      "Equal and in the same direction on one object",
+      "Present only when objects move",
+      "Always unbalanced on the same object"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "short",
+    "question": "What does the gradient of a distance–time graph represent?",
+    "correct": "Speed"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Forces and motion",
+    "type": "multiple",
+    "question": "A 10 kg object experiences a net force of 50 N. What is its acceleration?",
+    "correct": "5 m/s²",
+    "answers": [
+      "5 m/s²",
+      "0.2 m/s²",
+      "500 m/s²",
+      "60 m/s²"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "multiple",
+    "question": "What is the SI unit of electric current?",
+    "correct": "Ampere",
+    "answers": [
+      "Ampere",
+      "Volt",
+      "Ohm",
+      "Joule"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "multiple",
+    "question": "Which equation is Ohm's law?",
+    "correct": "V = IR",
+    "answers": [
+      "V = IR",
+      "F = ma",
+      "P = IV²",
+      "v = d/t"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "short",
+    "question": "A 12 V battery is connected across a 4 Ω resistor. Calculate the current.",
+    "correct": "3"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "multiple",
+    "question": "An ammeter should be connected:",
+    "correct": "In series with the component",
+    "answers": [
+      "In series with the component",
+      "In parallel across the component",
+      "Only across the battery terminals",
+      "Without a complete circuit"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "multiple",
+    "question": "In a series circuit, the current is:",
+    "correct": "The same through each component",
+    "answers": [
+      "The same through each component",
+      "Always zero at the second resistor",
+      "Different at every point",
+      "Independent of the supply"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "short",
+    "question": "State the law of conservation of energy.",
+    "correct": "Energy cannot be created or destroyed; it is transferred or transformed"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "multiple",
+    "question": "Which is a typical energy transformation in an electric motor?",
+    "correct": "Electrical to kinetic",
+    "answers": [
+      "Electrical to kinetic",
+      "Kinetic to nuclear",
+      "Chemical to gravitational only",
+      "Sound to electrical only"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Electricity and energy",
+    "type": "multiple",
+    "question": "Why are real devices often inefficient?",
+    "correct": "Some energy is transferred to less useful forms, such as heat or sound",
+    "answers": [
+      "Some energy is transferred to less useful forms, such as heat or sound",
+      "Energy is destroyed",
+      "They violate conservation of energy",
+      "All input energy becomes useful output"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Astronomy",
+    "type": "multiple",
+    "question": "A nebula is:",
+    "correct": "A cloud of gas and dust in space",
+    "answers": [
+      "A cloud of gas and dust in space",
+      "A small planet",
+      "A dead star only",
+      "A type of galaxy cluster only"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Astronomy",
+    "type": "multiple",
+    "question": "A star similar in mass to the Sun is expected eventually to become a:",
+    "correct": "Red giant, then shed outer layers and leave a white dwarf",
+    "answers": [
+      "Red giant, then shed outer layers and leave a white dwarf",
+      "Black hole in every case",
+      "Neutron star directly in every case",
+      "Main-sequence star forever"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Astronomy",
+    "type": "short",
+    "question": "What is a light-year?",
+    "correct": "The distance light travels in a vacuum in one year"
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Astronomy",
+    "type": "multiple",
+    "question": "Spectroscopy helps astronomers determine a star's:",
+    "correct": "Chemical composition, temperature and motion",
+    "answers": [
+      "Chemical composition, temperature and motion",
+      "Exact surface map in every case",
+      "Age with no uncertainty",
+      "Distance only, never composition"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Astronomy",
+    "type": "multiple",
+    "question": "What was a major impact of Galileo's use of a telescope?",
+    "correct": "Observations challenged some traditional geocentric views",
+    "answers": [
+      "Observations challenged some traditional geocentric views",
+      "It allowed radio signals from galaxies to be detected",
+      "It proved Earth was the centre of the universe",
+      "It directly photographed black holes"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Science: Astronomy",
+    "type": "short",
+    "question": "Name one way modern space telescopes have improved our understanding of the Universe.",
+    "correct": "They observe faint or distant objects and wavelengths, revealing galaxies, star formation and early-universe evidence"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Geographical skills",
+    "type": "multiple",
+    "question": "On a map with a scale of 1:25,000, 4 cm represents what ground distance?",
+    "correct": "1 km",
+    "answers": [
+      "1 km",
+      "10 km",
+      "100 m",
+      "250 m"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Geographical skills",
+    "type": "short",
+    "question": "A map shows a hill rising 120 m over a horizontal distance of 600 m. Calculate the gradient as a ratio in simplest form.",
+    "correct": "1:5"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Geographical skills",
+    "type": "multiple",
+    "question": "Latitude measures distance:",
+    "correct": "North or south of the Equator",
+    "answers": [
+      "North or south of the Equator",
+      "East or west of Greenwich",
+      "Above sea level only",
+      "Along a contour line"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Geographical skills",
+    "type": "multiple",
+    "question": "Which tool best shows the direction and movement of weather systems across a region?",
+    "correct": "Synoptic chart",
+    "answers": [
+      "Synoptic chart",
+      "Population pyramid",
+      "Box plot",
+      "Cross section only"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Geographical skills",
+    "type": "short",
+    "question": "What is aspect of slope?",
+    "correct": "The compass direction that a slope faces"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Geographical skills",
+    "type": "multiple",
+    "question": "A cross-section profile is used to show:",
+    "correct": "The shape and elevation of land along a chosen line",
+    "answers": [
+      "The shape and elevation of land along a chosen line",
+      "Only population age structure",
+      "Only annual rainfall totals",
+      "The political boundaries of a country"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Working scientifically",
+    "type": "multiple",
+    "question": "The independent variable in an experiment is the variable that is:",
+    "correct": "Deliberately changed by the investigator",
+    "answers": [
+      "Deliberately changed by the investigator",
+      "Measured as the outcome",
+      "Kept the same in every trial",
+      "Always an error"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Working scientifically",
+    "type": "multiple",
+    "question": "A valid experiment should:",
+    "correct": "Test the intended variable while controlling relevant factors",
+    "answers": [
+      "Test the intended variable while controlling relevant factors",
+      "Change several variables without recording them",
+      "Use no repeats",
+      "Avoid recording results"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Working scientifically",
+    "type": "short",
+    "question": "What is the difference between reliability and validity in an experiment?",
+    "correct": "Reliability concerns consistency of results; validity concerns whether the method fairly tests what it is intended to test"
+  },
+  {
+    "subject": "Science",
+    "topic": "Working scientifically",
+    "type": "multiple",
+    "question": "Why repeat measurements in an experiment?",
+    "correct": "To identify variation and improve confidence in results",
+    "answers": [
+      "To identify variation and improve confidence in results",
+      "To guarantee the hypothesis is correct",
+      "To remove the need for controls",
+      "To change the independent variable unknowingly"
+    ]
+  },
+  {
+    "subject": "Science",
+    "topic": "Working scientifically",
+    "type": "short",
+    "question": "What should a scientific conclusion do?",
+    "correct": "Answer the aim or question using evidence from the results and relate it to the hypothesis where appropriate"
+  }
+]

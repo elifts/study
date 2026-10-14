@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="quiz">
+        <div class="questionbox">
+            <h2 id="question">Loading question...</h2>
+        </div>
+
+        <div class="input">
+            <div class="multiplechoice" id="multiplechoice"></div>
+
+            <div class="shortanswers" id="shortanswers">
+                <input
+                    type="text"
+                    id="shortanswer"
+                    placeholder="Type your answer..."
+                    autocomplete="off"
+                >
+                <button id="submitanswer">Submit Answer</button>
+            </div>
+        </div>
+
+        <p id="feedback" aria-live="polite"></p>
+
+        <button id="nextquestion" hidden>Next Question</button>
+
+        <p id="progress"></p>
+    </main>
+</body>
+</html>
