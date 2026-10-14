@@ -205,7 +205,7 @@ function launchConfetti() {
         "#ff79c6"
     ];
 
-    for (let i = 0; i < 5000; i++) {
+    for (let i = 0; i < 100; i++) {
         const piece = document.createElement("span");
 
         piece.className = "confetti-piece";
