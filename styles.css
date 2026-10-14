@@ -144,3 +144,151 @@ button:disabled {
         flex-direction: column;
     }
 }
+.Skipanswer{
+    margin-top: 25px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.quiz {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.questionbox {
+    width: 100%;
+    min-height: 180px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #d92323;
+    overflow-wrap: anywhere;
+}
+
+.questionbox h2 {
+    font-size: clamp(22px, 4vw, 34px);
+    margin: 0;
+}
+
+.input {
+    margin-top: 25px;
+}
+
+.multiplechoice {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+button,
+#shortanswer {
+    padding: 16px;
+    border: 2px solid #383838;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #252525;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+button:hover:not(:disabled) {
+    background-color: #414141;
+    border-color: #777;
+}
+
+button:disabled {
+    cursor: default;
+    opacity: 1;
+}
+
+.multiplechoice button {
+    min-height: 65px;
+}
+
+#shortanswers {
+    display: flex;
+    gap: 10px;
+}
+
+#shortanswer {
+    flex: 1;
+    min-width: 0;
+    background-color: #202020;
+    color: white;
+    outline: none;
+}
+
+#shortanswer:focus {
+    border-color: #888;
+}
+
+#submitanswer {
+    white-space: nowrap;
+}
+
+.correct {
+    background-color: #176b35 !important;
+    border-color: #39d76b !important;
+}
+
+.incorrect {
+    background-color: #801f28 !important;
+    border-color: #ff5252 !important;
+}
+
+#feedback {
+    min-height: 28px;
+    margin: 22px 0 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nextquestion {
+    margin-top: 10px;
+    background-color: #d92323;
+    border-color: #d92323;
+    min-width: 200px;
+}
+
+#nextquestion:hover {
+    background-color: #a81818;
+}
+
+#progress {
+    margin-top: 25px;
+    color: #999;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 500px) {
+    .multiplechoice {
+        grid-template-columns: 1fr;
+    }
+
+    #shortanswers {
+        flex-direction: column;
+    }
+}
