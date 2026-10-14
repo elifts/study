@@ -11,6 +11,16 @@
 <body>
     <main class="layout">
         <section class="quiz">
+            <div class="subjectbox">
+                <div class="subjectheader">
+                    <h3>Subjects</h3>
+                    <div class="subjectactions">
+                        <button id="selectall" type="button">All</button>
+                        <button id="selectnone" type="button">None</button>
+                    </div>
+                </div>
+                <div id="subjectselect" class="subjectselect"></div>
+            </div>
             <div class="questionbox">
                 <h2 id="question">Loading question...</h2>
             </div>
@@ -48,7 +58,7 @@
             </div>
         </section>
     </main>
-
+    <button id="resetdata" class="resetdata">Reset Saved Data</button>
     <div id="confetti" aria-hidden="true"></div>
 </body>
 </html>

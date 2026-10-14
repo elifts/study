@@ -1,4 +1,3 @@
-
 const questionElement = document.getElementById("question");
 const multipleChoice = document.getElementById("multiplechoice");
 const shortAnswers = document.getElementById("shortanswers");
@@ -11,6 +10,10 @@ const skipAnswer = document.getElementById("Skipanswer");
 const graph = document.getElementById("timegraph");
 const ctx = graph.getContext("2d");
 const confetti = document.getElementById("confetti");
+const subjectSelect = document.getElementById("subjectselect");
+
+const SAVE_KEY = "mathQuizData";
+const SUBJECT_KEY = "mathQuizSubjects";
 
 let questions = [];
 let remainingQuestions = [];
@@ -20,11 +23,14 @@ let score = 0;
 let answered = false;
 let questionStartTime = 0;
 let graphData = [];
+let selectedSubjects = new Set();
 
+// Normalise answers before comparing them.
 function normalise(answer) {
     return String(answer).trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+// Shuffle an array without changing the original.
 function shuffle(array) {
     const shuffled = [...array];
 
@@ -36,16 +42,164 @@ function shuffle(array) {
     return shuffled;
 }
 
-function getRandomQuestion() {
-    if (remainingQuestions.length === 0) {
-        remainingQuestions = shuffle(
-            questions.map((_, index) => index)
-        );
-    }
+// Save quiz progress to this browser.
+function saveData() {
+    try {
+        const data = {
+            graphData,
+            score,
+            questionsAnswered
+        };
 
-    return questions[remainingQuestions.pop()];
+        localStorage.setItem(SAVE_KEY, JSON.stringify(data));
+    } catch (error) {
+        console.error("Could not save quiz data:", error);
+        feedback.textContent = "Could not save quiz data.";
+        feedback.style.color = "#ff5252";
+    }
 }
 
+// Restore saved quiz progress.
+function loadSavedData() {
+    try {
+        const saved = localStorage.getItem(SAVE_KEY);
+
+        if (!saved) return;
+
+        const data = JSON.parse(saved);
+
+        if (!Array.isArray(data.graphData)) return;
+
+        graphData = data.graphData.filter(point =>
+            Number.isFinite(point.question) &&
+            Number.isFinite(point.time) &&
+            ["correct", "incorrect", "skipped"].includes(point.result) &&
+            Number.isInteger(point.questionId)
+        );
+
+        questionsAnswered = graphData.length;
+
+        score = graphData.filter(
+            point => point.result === "correct"
+        ).length;
+
+        updateProgress();
+        drawGraph();
+    } catch (error) {
+        console.error("Could not load saved quiz data:", error);
+    }
+}
+
+// Build the subject checkboxes from the questions file.
+function buildSubjectSelector() {
+    const subjects = [...new Set(
+        questions.map(q => q.subject || "Other")
+    )].sort();
+
+    let saved = null;
+
+    try {
+        saved = JSON.parse(localStorage.getItem(SUBJECT_KEY));
+    } catch (error) {
+        saved = null;
+    }
+
+    selectedSubjects = new Set(
+        Array.isArray(saved)
+            ? saved.filter(subject => subjects.includes(subject))
+            : subjects
+    );
+
+    subjectSelect.replaceChildren();
+
+    subjects.forEach(subject => {
+        const count = questions.filter(
+            q => (q.subject || "Other") === subject
+        ).length;
+
+        const label = document.createElement("label");
+        label.className = "subjectchip";
+
+        const box = document.createElement("input");
+        box.type = "checkbox";
+        box.value = subject;
+        box.checked = selectedSubjects.has(subject);
+
+        label.append(box, `${subject} (${count})`);
+        subjectSelect.appendChild(label);
+    });
+}
+
+// Read the ticked subjects, save them and load a new question.
+function applySubjectSelection() {
+    selectedSubjects = new Set(
+        [...subjectSelect.querySelectorAll("input:checked")]
+            .map(box => box.value)
+    );
+
+    try {
+        localStorage.setItem(
+            SUBJECT_KEY,
+            JSON.stringify([...selectedSubjects])
+        );
+    } catch (error) {
+        console.error("Could not save subjects:", error);
+    }
+
+    showQuestion();
+}
+
+function setAllSubjects(checked) {
+    subjectSelect.querySelectorAll("input").forEach(box => {
+        box.checked = checked;
+    });
+
+    applySubjectSelection();
+}
+
+// Give incorrect and skipped questions a higher chance of appearing.
+// Questions answered correctly retain normal weight.
+// Only questions from the selected subjects are included.
+function getRandomQuestion() {
+    if (questions.length === 0) return null;
+
+    const weightedQuestions = [];
+
+    questions.forEach((question, index) => {
+        if (!selectedSubjects.has(question.subject || "Other")) return;
+
+        const history = graphData.filter(
+            point => point.questionId === index
+        );
+
+        const lastAttempt = history[history.length - 1];
+
+        let weight = 1;
+
+        if (lastAttempt) {
+            if (
+                lastAttempt.result === "incorrect" ||
+                lastAttempt.result === "skipped"
+            ) {
+                weight = 5;
+            }
+        }
+
+        for (let i = 0; i < weight; i++) {
+            weightedQuestions.push(index);
+        }
+    });
+
+    if (weightedQuestions.length === 0) return null;
+
+    const index = weightedQuestions[
+        Math.floor(Math.random() * weightedQuestions.length)
+    ];
+
+    return questions[index];
+}
+
+// Load questions and restore saved data.
 async function loadQuestions() {
     try {
         const response = await fetch("questions.json");
@@ -60,10 +214,8 @@ async function loadQuestions() {
             throw new Error("The question list is empty or invalid.");
         }
 
-        remainingQuestions = shuffle(
-            questions.map((_, index) => index)
-        );
-
+        loadSavedData();
+        buildSubjectSelector();
         showQuestion();
     } catch (error) {
         questionElement.textContent = "Could not load questions.";
@@ -72,8 +224,21 @@ async function loadQuestions() {
     }
 }
 
+// Display a random weighted question.
 function showQuestion() {
     currentQuestion = getRandomQuestion();
+
+    if (!currentQuestion) {
+        questionElement.textContent =
+            "Select at least one subject to begin.";
+        multipleChoice.hidden = true;
+        shortAnswers.hidden = true;
+        skipAnswer.hidden = true;
+        nextQuestionButton.hidden = true;
+        feedback.textContent = "";
+        return;
+    }
+
     answered = false;
     questionStartTime = performance.now();
 
@@ -92,7 +257,7 @@ function showQuestion() {
         multipleChoice.hidden = false;
         shortAnswers.hidden = true;
 
-        shuffle(currentQuestion.answers).forEach((answer) => {
+        shuffle(currentQuestion.answers).forEach(answer => {
             const button = document.createElement("button");
 
             button.textContent = answer;
@@ -116,6 +281,7 @@ function showQuestion() {
     updateProgress();
 }
 
+// Check an answer.
 function checkAnswer(answer, selectedButton = null) {
     if (answered) return;
 
@@ -125,7 +291,12 @@ function checkAnswer(answer, selectedButton = null) {
     finishQuestion(isCorrect, selectedButton);
 }
 
-function finishQuestion(isCorrect, selectedButton = null, skipped = false) {
+// Finish, record and save an answer.
+function finishQuestion(
+    isCorrect,
+    selectedButton = null,
+    skipped = false
+) {
     if (answered) return;
 
     answered = true;
@@ -151,9 +322,16 @@ function finishQuestion(isCorrect, selectedButton = null, skipped = false) {
 
     graphData.push({
         question: questionsAnswered,
+        questionId: questions.indexOf(currentQuestion),
         time: elapsed,
-        result: skipped ? "skipped" : isCorrect ? "correct" : "incorrect"
+        result: skipped
+            ? "skipped"
+            : isCorrect
+                ? "correct"
+                : "incorrect"
     });
+
+    saveData();
 
     if (selectedButton) {
         selectedButton.classList.add(
@@ -162,7 +340,7 @@ function finishQuestion(isCorrect, selectedButton = null, skipped = false) {
     }
 
     if (currentQuestion.type === "multiple") {
-        multipleChoice.querySelectorAll("button").forEach((button) => {
+        multipleChoice.querySelectorAll("button").forEach(button => {
             button.disabled = true;
 
             if (
@@ -185,6 +363,7 @@ function finishQuestion(isCorrect, selectedButton = null, skipped = false) {
     nextQuestionButton.focus();
 }
 
+// Update the score display.
 function updateProgress() {
     const percentage = questionsAnswered
         ? Math.round((score / questionsAnswered) * 100)
@@ -194,6 +373,7 @@ function updateProgress() {
         `Answered: ${questionsAnswered} | Score: ${score}/${questionsAnswered} | ${percentage}%`;
 }
 
+// Confetti animation for correct answers.
 function launchConfetti() {
     const colours = [
         "#39d76b",
@@ -212,14 +392,17 @@ function launchConfetti() {
         piece.style.left = `${Math.random() * 100}%`;
         piece.style.backgroundColor =
             colours[Math.floor(Math.random() * colours.length)];
+
         piece.style.setProperty(
             "--drift",
             `${Math.random() * 300 - 150}px`
         );
+
         piece.style.setProperty(
             "--duration",
             `${2 + Math.random() * 2}s`
         );
+
         piece.style.animationDelay = `${Math.random() * 0.5}s`;
 
         confetti.appendChild(piece);
@@ -230,6 +413,42 @@ function launchConfetti() {
     }
 }
 
+// Remove outliers using the 1.5 × IQR rule.
+function removeOutliers(data) {
+    if (data.length < 4) return data;
+
+    const sorted = data
+        .map(point => point.time)
+        .sort((a, b) => a - b);
+
+    function median(values) {
+        const mid = Math.floor(values.length / 2);
+
+        return values.length % 2 === 0
+            ? (values[mid - 1] + values[mid]) / 2
+            : values[mid];
+    }
+
+    const middle = Math.floor(sorted.length / 2);
+
+    const lowerHalf = sorted.slice(0, middle);
+    const upperHalf = sorted.slice(Math.ceil(sorted.length / 2));
+
+    const q1 = median(lowerHalf);
+    const q3 = median(upperHalf);
+
+    const iqr = q3 - q1;
+
+    const lowerBound = q1 - 1.5 * iqr;
+    const upperBound = q3 + 1.5 * iqr;
+
+    return data.filter(point =>
+        point.time >= lowerBound &&
+        point.time <= upperBound
+    );
+}
+
+// Draw the question timing graph.
 function drawGraph() {
     const width = graph.clientWidth;
     const height = graph.clientHeight;
@@ -256,15 +475,20 @@ function drawGraph() {
 
     if (plotWidth <= 0 || plotHeight <= 0) return;
 
+    const filteredData = removeOutliers(graphData);
+
     const maxTime = Math.max(
         5,
-        Math.ceil(Math.max(0, ...graphData.map(point => point.time)) / 5) * 5
+        Math.ceil(
+            Math.max(0, ...filteredData.map(point => point.time)) / 5
+        ) * 5
     );
 
     const maxQuestions = Math.max(5, graphData.length);
 
     const x = question =>
-        margin.left + ((question - 1) / Math.max(1, maxQuestions - 1)) * plotWidth;
+        margin.left +
+        ((question - 1) / Math.max(1, maxQuestions - 1)) * plotWidth;
 
     const y = time =>
         margin.top + plotHeight - (time / maxTime) * plotHeight;
@@ -302,18 +526,25 @@ function drawGraph() {
     for (let i = 0; i < xLabels; i++) {
         const questionNumber = xLabels === 1
             ? 1
-            : Math.round(1 + (i / (xLabels - 1)) * (maxQuestions - 1));
+            : Math.round(
+                1 + (i / (xLabels - 1)) * (maxQuestions - 1)
+            );
 
         const px = x(questionNumber);
 
         ctx.textAlign = "center";
         ctx.textBaseline = "top";
-        ctx.fillText(String(questionNumber), px, height - margin.bottom + 10);
+        ctx.fillText(
+            String(questionNumber),
+            px,
+            height - margin.bottom + 10
+        );
     }
 
     ctx.fillStyle = "#ffffff";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
+
     ctx.fillText(
         "All Questions",
         margin.left + plotWidth / 2,
@@ -327,22 +558,25 @@ function drawGraph() {
     ctx.fillText("Time per Question (seconds)", 0, 0);
     ctx.restore();
 
-    if (graphData.length === 0) {
+    if (filteredData.length === 0) {
         ctx.fillStyle = "#777777";
         ctx.textAlign = "center";
+
         ctx.fillText(
             "Answer a question to start the graph",
             margin.left + plotWidth / 2,
             margin.top + plotHeight / 2
         );
+
         return;
     }
 
+    // Connect the non-outlier points.
     ctx.strokeStyle = "#777777";
     ctx.lineWidth = 2;
     ctx.beginPath();
 
-    graphData.forEach((point, index) => {
+    filteredData.forEach((point, index) => {
         const px = x(point.question);
         const py = y(point.time);
 
@@ -355,7 +589,8 @@ function drawGraph() {
 
     ctx.stroke();
 
-    graphData.forEach((point) => {
+    // Draw points coloured by result.
+    filteredData.forEach(point => {
         const px = x(point.question);
         const py = y(point.time);
 
@@ -376,6 +611,7 @@ function drawGraph() {
     });
 }
 
+// Submit a short answer.
 submitAnswer.addEventListener("click", () => {
     if (!shortAnswerInput.value.trim()) {
         feedback.textContent = "Please enter an answer.";
@@ -386,23 +622,56 @@ submitAnswer.addEventListener("click", () => {
     checkAnswer(shortAnswerInput.value);
 });
 
+// Skip a question.
 skipAnswer.addEventListener("click", () => {
     finishQuestion(false, null, true);
 });
 
-shortAnswerInput.addEventListener("keydown", (event) => {
+// Submit using Enter.
+shortAnswerInput.addEventListener("keydown", event => {
     if (event.key === "Enter" && !answered) {
         submitAnswer.click();
     }
 });
 
+// Go to the next question.
 nextQuestionButton.addEventListener("click", showQuestion);
 
+// Subject selection.
+subjectSelect.addEventListener("change", applySubjectSelection);
+
+document.getElementById("selectall")
+    .addEventListener("click", () => setAllSubjects(true));
+
+document.getElementById("selectnone")
+    .addEventListener("click", () => setAllSubjects(false));
+
+// Redraw the graph when the window changes size.
 window.addEventListener("resize", drawGraph);
 
 if ("ResizeObserver" in window) {
     new ResizeObserver(drawGraph).observe(graph);
 }
 
+// Reset saved data using an optional HTML button.
+const resetButton = document.getElementById("resetdata");
+
+if (resetButton) {
+    resetButton.addEventListener("click", () => {
+        if (!confirm("Delete all saved quiz data?")) return;
+
+        localStorage.removeItem(SAVE_KEY);
+
+        graphData = [];
+        score = 0;
+        questionsAnswered = 0;
+        remainingQuestions = [];
+
+        updateProgress();
+        drawGraph();
+    });
+}
+
+// Initial setup.
 drawGraph();
 loadQuestions();
