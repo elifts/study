@@ -31151,4 +31151,353 @@
    "Mise-en-scène"
   ]
  }
+   {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "In which ocean is Kiribati located?",
+    "correct": "Pacific Ocean",
+    "answers": [
+      "Southern Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "What type of landform are most of Kiribati's islands?",
+    "correct": "Coral atolls",
+    "answers": [
+      "Volcanic cones",
+      "River deltas",
+      "Glacial valleys",
+      "Coral atolls"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "What is an atoll?",
+    "correct": "A ring-shaped coral reef or island enclosing a lagoon"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Roughly how high above sea level is most of the land in Kiribati?",
+    "correct": "Only 2–3 metres",
+    "answers": [
+      "About 30 metres",
+      "Only 2–3 metres",
+      "Over 500 metres",
+      "About 100 metres"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Kiribati's islands are divided into which three main groups?",
+    "correct": "Gilbert, Phoenix and Line Islands",
+    "answers": [
+      "Hawaii, Guam and Palau",
+      "Solomon, Vanuatu and Tuvalu",
+      "Gilbert, Phoenix and Line Islands",
+      "Fiji, Samoa and Tonga"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "What is the name of the capital area of Kiribati, on Tarawa atoll?",
+    "correct": "South Tarawa"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Why is Kiribati especially vulnerable to sea-level rise?",
+    "correct": "Its land is very low-lying",
+    "answers": [
+      "It is far from the ocean",
+      "Its land is very low-lying",
+      "It has high mountains",
+      "It has no coastline"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "What is a freshwater lens?",
+    "correct": "A layer of fresh groundwater floating above denser salt water beneath an island",
+    "answers": [
+      "A lake on top of a mountain",
+      "A desalination plant",
+      "A layer of fresh groundwater floating above denser salt water beneath an island",
+      "A glass used to study coral"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "How can sea-level rise damage Kiribati's drinking water supply?",
+    "correct": "Salt water can seep into the freshwater lens, making groundwater salty (saltwater intrusion)"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "What is saltwater intrusion?",
+    "correct": "Salt water contaminating freshwater groundwater or soil",
+    "answers": [
+      "Salt being mined from the sea",
+      "Fish moving into rivers",
+      "Rain falling on the ocean",
+      "Salt water contaminating freshwater groundwater or soil"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "What are king tides?",
+    "correct": "Unusually high tides that can flood low-lying land",
+    "answers": [
+      "Tides controlled by dams",
+      "Unusually high tides that can flood low-lying land",
+      "Tides caused only by earthquakes",
+      "Tides that never reach the shore"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Which is a human cause of the enhanced greenhouse effect that is driving sea-level rise?",
+    "correct": "Burning fossil fuels",
+    "answers": [
+      "Planting forests",
+      "Using solar panels",
+      "Burning fossil fuels",
+      "Recycling paper"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Sea levels are rising mainly because of:",
+    "correct": "Melting ice and thermal expansion of warming ocean water",
+    "answers": [
+      "More rainfall on land only",
+      "Increasing numbers of fish",
+      "Earthquakes under the Pacific",
+      "Melting ice and thermal expansion of warming ocean water"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "Name one way rising seas affect people's homes and land in Kiribati.",
+    "correct": "Coastal erosion, flooding of villages, loss of land or damage to infrastructure"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "How is climate change affecting food production in Kiribati?",
+    "correct": "Salty soil and flooding damage crops such as pandanus, coconut and babai",
+    "answers": [
+      "It has created new farmland in the lagoon",
+      "Salty soil and flooding damage crops such as pandanus, coconut and babai",
+      "It has increased wheat harvests",
+      "It has stopped all fishing"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "Give one adaptation strategy used in Kiribati to reduce coastal erosion.",
+    "correct": "Building sea walls or planting mangroves"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Which is a soft strategy that helps protect Kiribati's coasts?",
+    "correct": "Planting mangroves",
+    "answers": [
+      "Placing rock armour",
+      "Building a concrete sea wall",
+      "Building a groyne",
+      "Planting mangroves"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Why do mangroves help protect a coastline?",
+    "correct": "Their roots absorb wave energy and trap sediment",
+    "answers": [
+      "They heat the water",
+      "They make the sea shallower everywhere",
+      "Their roots absorb wave energy and trap sediment",
+      "They stop the tides"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Why has South Tarawa become overcrowded?",
+    "correct": "Many people moved there from outer islands for jobs, services and education",
+    "answers": [
+      "It has the highest land in Kiribati",
+      "It is a volcanic island",
+      "Many people moved there from outer islands for jobs, services and education",
+      "It has no schools or shops"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "Why is overcrowding in South Tarawa a problem?",
+    "correct": "It puts pressure on water, sanitation, housing and food, and leaves more people exposed to flooding"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "What does 'migration with dignity' mean in the Kiribati context?",
+    "correct": "Helping I-Kiribati gain skills and move overseas by choice before they are forced out",
+    "answers": [
+      "Banning anyone from leaving",
+      "Closing the country's borders",
+      "Moving the capital to another island only",
+      "Helping I-Kiribati gain skills and move overseas by choice before they are forced out"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Kiribati's government bought land overseas in 2014 as a possible refuge. Which country is it in?",
+    "correct": "Fiji",
+    "answers": [
+      "Fiji",
+      "Australia",
+      "New Zealand",
+      "Japan"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "What does the 'I' in 'I-Kiribati' refer to?",
+    "correct": "The people of Kiribati",
+    "answers": [
+      "The people of Kiribati",
+      "An island group",
+      "The language of Fiji",
+      "A type of coral"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Compared with large industrial countries, Kiribati's contribution to global greenhouse gas emissions is:",
+    "correct": "Extremely small",
+    "answers": [
+      "Greater than the United States'",
+      "Extremely small",
+      "The largest in the world",
+      "About equal to China's"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Which Pacific country is Kiribati's former colonial ruler (independence in 1979)?",
+    "correct": "United Kingdom",
+    "answers": [
+      "Spain",
+      "United Kingdom",
+      "Germany",
+      "France"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Kiribati's most important source of government income is selling:",
+    "correct": "Fishing licences to foreign fleets",
+    "answers": [
+      "Cars",
+      "Coal",
+      "Wheat",
+      "Fishing licences to foreign fleets"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Kiribati is the only country to lie in all four hemispheres. Which line passes through it?",
+    "correct": "The Equator",
+    "answers": [
+      "The Equator",
+      "The Arctic Circle",
+      "The Tropic of Cancer",
+      "The Prime Meridian"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "Why do scientists say rising seas may make some atoll nations uninhabitable?",
+    "correct": "Land may be lost to flooding and erosion and freshwater and crops may become too salty to use"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "multiple",
+    "question": "Which is an example of a human (social) impact of climate change on Kiribati?",
+    "correct": "Possible forced migration of communities",
+    "answers": [
+      "Growth of glaciers",
+      "Possible forced migration of communities",
+      "Larger forests",
+      "More snowfall"
+    ]
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "Explain how Kiribati shows the link between the atmosphere and the hydrosphere.",
+    "correct": "Greenhouse gases warm the atmosphere, which melts ice and warms the oceans, raising sea levels that threaten the island"
+  },
+  {
+    "subject": "Geography",
+    "topic": "Environmental change and coastal environments: Kiribati",
+    "type": "short",
+    "question": "Compare the coastal threats at Kiribati with those at Collaroy–Narrabeen.",
+    "correct": "Both face erosion and flooding, but Kiribati is threatened by permanent sea-level rise with few resources, while Collaroy–Narrabeen is hit mainly by storm erosion and can afford engineering"
+  }
 ]
